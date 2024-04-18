@@ -11,17 +11,14 @@ Part 2:
 - Add a `footer` after the list that says: 
     "© 20xx <last name here> development. All rights reserved."
  */
-
-    import React from "react"
-    import ReactDOM from "react-dom"
     
     function Header() {
         return (
             <header>
                 <nav>
                     <img src="./react-logo.png" width="40px" alt="react logo"/>
-                    <h1>Reasons to learn react</h1>
                 </nav>
+                <h1>Reasons to learn react</h1>
             </header>
         )
     }
