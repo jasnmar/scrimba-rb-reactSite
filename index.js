@@ -3,13 +3,15 @@ Challenge:
 
 - Add an `ul` inside the Header's `nav` and create
   the following `li`s: "Pricing", "About", & "Contact"
+- Using flexbox, line up the nav items horizontally, and
+  put them inline with the React logo.
 */
     function Header() {
         return (
             <header>
-                <nav>
-                    <img src="./react-logo.png" width="40px" alt="react logo"/>
-                    <ul>
+                <nav className="top-nav">
+                    <img src="./react-logo.png" height="40px" width="40px" alt="react logo"/>
+                    <ul className="menu">
                         <li>Pricing</li>
                         <li>About</li>
                         <li>Contact</li>
