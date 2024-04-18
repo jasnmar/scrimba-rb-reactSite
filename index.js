@@ -9,14 +9,14 @@ import MainContent from "./MainContent.js"
 import Footer from "./Footer.js"
 
 
-    
-    function All() {
-        return (
-            <div>
-                <Header />
-                <MainContent />
-                <Footer />
-            </div>
-        )
-    }
+
+function All() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    )
+}
     ReactDOM.render(<All />, document.getElementById("root"))
