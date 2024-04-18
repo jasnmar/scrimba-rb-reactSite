@@ -1,20 +1,19 @@
-
 /**
 Challenge: 
 
-- Move the `footer` into its own component called "Footer" 
-  and render that component inside the Page component.
-- Move the `h1` and `ol` together into another component
-  called "MainContent" and render inside Page as well.
+- Add an `ul` inside the Header's `nav` and create
+  the following `li`s: "Pricing", "About", & "Contact"
 */
-//I did this from the beginning.
-//The instructor just added everything to the Page function
-
     function Header() {
         return (
             <header>
                 <nav>
                     <img src="./react-logo.png" width="40px" alt="react logo"/>
+                    <ul>
+                        <li>Pricing</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
                 </nav>
                 <h1>Reasons to learn react</h1>
             </header>
