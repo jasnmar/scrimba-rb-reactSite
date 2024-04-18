@@ -36,7 +36,7 @@ Challenge:
     }
     function Footer() {
         return (
-            <p>© 2024 Martin development. All rights reserved.</p>
+            <p className="footer">© 2024 Martin development. All rights reserved.</p>
         )
     }
     
